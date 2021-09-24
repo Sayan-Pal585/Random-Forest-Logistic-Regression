@@ -2,7 +2,7 @@
 """
 Created on Thu Jun  4 15:47:29 2020
 
-@author: PritamDevadattaJena
+@author: Sayan Pal
 This codes for all options codes and jaccard similarity range of 0.56 to less that 1
 
 """
