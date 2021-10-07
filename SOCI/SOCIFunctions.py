@@ -31,22 +31,7 @@ import pdb
 print("\n All Libraries import done")
 
 #%% Building Conncetion
-
-td_api_key = '10729/718b8e1f45ab24b17cabb39f75aabc37cf49bfbd'
-
-os.environ['TD_API_KEY'] = td_api_key
-print("\n Succeeded to set the API key")
-
-os.environ["HTTP_PROXY"] = http_proxy = "http://cag\t8318sp:%s@iproxy.appl.chrysler.com:9090" % parse.quote_plus('Milu9007423695@')
-os.environ['TD_API_SERVER'] = endpoint = 'https://api.treasuredata.com'
-
-con = td.connect(apikey=td_api_key, endpoint=endpoint, http_proxy_proxy=http_proxy)
-
-database = 'sandbox_data_science'
-engine = td.create_engine('presto:{}'.format(database))
-print("\n Connected to {}".format(database))
-print("\n Connection Establish ")
-
+With Databases.
 #%% Loading Tables
 #----------------------------------------------------------------VISIT---------------------------------------------------------
 def BNSOretail():
